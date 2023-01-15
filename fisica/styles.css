@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+h1{
+   text-align: center;
+   color: rgb(252, 0, 239);
+   font-family:monospace;
+   font-size: 60px;
+}
+.tabla{
+    background-color: rgb(27, 17, 222);
+    height: auto;
+    width: 500px;
+    padding: 35px;
+    margin: auto;
+    display: block;
+    
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+img{
+    width: 20px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    margin: 7px;
+    background-color: rgba(205, 92, 92, 0.556);
+    color: aliceblue;
+    padding: 0.5em;
+    display: inline-block;
+    font-size: 15px;
+}
+
+::placeholder{
+    color: blanchedalmond;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(188, 119, 165);
+
+}
+.enviar{
+    padding: 0.5em;
+    background-color: black;
+    color: lawngreen;
+    margin-top: 25px;
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+    color: aliceblue;
+    padding: 0.5rem;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#mostrar2,#mostrar1,#mostrar3,#mostrar4,#mostrar5,#mostrar6{
+    display: none;
+}
